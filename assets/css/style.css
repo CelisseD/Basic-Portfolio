@@ -3,6 +3,8 @@ body {
     background-repeat: repeat;
     background-color: white;
     width: 960px;
+    font-family: "Georgia", Times, Times New Roman, serif;
+    margin: auto;
 }
 
 header {
@@ -26,7 +28,6 @@ ul {
 
 .wrapper {
     width: 960px;
-    margin: 0 auto;
     clear: both;
 }
 
@@ -38,4 +39,16 @@ ul {
 .module {
     background-color: #ffffff;
     padding: 30px;
-    border: 1px solid black;
+    border: 1px solid #dddddd;
+}
+
+.bioPhoto {
+    float: left;
+    margin-right: 30px;
+}
+
+p {
+    display: block;
+    margin-top: 50px;
+    
+}
