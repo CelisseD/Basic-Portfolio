@@ -10,7 +10,7 @@ header {
     background-color: #ffffff;
     width: 100%;
     height: 80px;
-    border-bottom-color: #dddddd;
+    border-bottom-color: #cccccc;
     border-bottom-style: solid;
     border-bottom-width: 1px;
 }
@@ -115,3 +115,24 @@ p {
     font-size: 8px;
     margin-top: 10px;
     }
+
+.portfolioImage {
+    padding: 10px;
+}
+
+#thumbnail1. {
+    background-color: #4aaaa5;
+}
+
+/* Container holding the image and the text */
+.portfolioContainer {
+    position: relative;
+  }
+
+.text-block {
+    width: 180px;
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+  }
