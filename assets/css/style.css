@@ -23,7 +23,7 @@ h1 {
 
 .navigation {
     margin: 0 auto;
-    width: 650px;
+    width: 960px;
 }
 
 #logo {
@@ -57,7 +57,7 @@ li {
     margin-top: 30px;
     margin-left: auto;
     color: #777777;
-    width: 650px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -97,11 +97,12 @@ p {
     position: relative;
     min-height: 100vh;
   }
-  #content-wrap {
+
+#content-wrap {
     padding-bottom: 2.5rem;    /* Footer height */
   }
 
-  #footer {
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -109,30 +110,25 @@ p {
     background-color: #666666;
     border-top-color: #4aaaa5;
     border-top-style: solid;
-    border-top-width: 5px;
+    border-top-width: 8px;
     text-align: center;
     color: white;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 10px;
     }
 
-.portfolioImage {
-    padding: 10px;
-}
-
-#thumbnail1. {
-    background-color: #4aaaa5;
-}
-
-/* Container holding the image and the text */
-.portfolioContainer {
+.portfolio {
     position: relative;
-  }
+    float: left;
+    width: 274px;
+    margin: 20px 0px 25px 0px;
+    overflow: auto;
+}
 
-.text-block {
-    width: 180px;
-    position: absolute;
+h4 {
     background-color: #4aaaa5;
+    padding: 5px;
     color: white;
+    font-size: 18px;
     text-align: center;
-  }
+}
